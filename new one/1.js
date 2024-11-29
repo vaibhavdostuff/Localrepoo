@@ -83,3 +83,42 @@ num = x / 2;
 sum = x + y;
 
 console.log(num + "\n" + sum);
+
+//5
+
+// Variable Declarations
+let x, num, sum;
+
+// Assign value to the variables
+x = 20;
+y = 30
+
+/* Expression to add two numbers */
+sum = x + y;
+
+console.log(sum);
+
+//6
+
+// Function definition
+function func() {
+
+    // Declare a variable
+    let num = 45;
+
+    // Display the result
+    console.log(num);
+}
+
+// Function call
+func();
+
+
+//7
+
+let firstName = "vaibhav";
+let firstname = 100;
+
+console.log(firstName);
+console.log(firstname);
+
