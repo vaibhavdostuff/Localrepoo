@@ -122,3 +122,61 @@ let firstname = 100;
 console.log(firstName);
 console.log(firstname);
 
+
+//8
+
+// A single line comment  
+console.log("vaibhav negi!");
+
+//9
+
+function sub() {
+    let x = 10;
+    let y = 20;
+    /* let z = x + y;
+    console.log(z); */
+
+    let z = x - y;
+    console.log(z);
+}
+
+sub();
+
+//10
+
+let petName = 'Rocky' // Global variable
+myFunction()
+
+function myFunction() {
+    fruit = 'apple'; // Considered global
+    console.log(typeof petName +
+        '- ' +
+        'My pet name is ' +
+        petName)
+}
+
+console.log(
+    typeof petName +
+    '- ' +
+    'My pet name is ' +
+    petName +
+    'Fruit name is ' +
+    fruit)
+
+
+//11
+
+myfunction();
+anotherFunc();
+let petName;
+function myfunction() {
+    let petName = "Sizzer"; // local variable
+    console.log(petName);
+}
+function anotherFunc() {
+    let petName = "Tom"; // local variable
+    console.log(petName);
+}
+console.log(petName);
+
+
